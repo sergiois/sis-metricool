@@ -1,18 +1,18 @@
-# SIS Theme Color: sisthemecolor
-Joomla System Plugin to color the browser bar on mobile devices
-[GitHub Web](https://sergiois.github.io/sis-theme-color.html "SIS Theme Color")
+# SIS Metricool: sismetricool
+Joomla System plugin to integrate Metricool tracking code
+[GitHub Web](https://sergiois.github.io/sis-metricool.html "SIS Metricool")
 
 ## Installation and Usage
 * Install the plugin using Joomla! Extension Manager
 * Enable the plugin
-* Select de color of the browser bar
+* Enter the tracking code of Metricool
 
 * * *
 
 # Changelogs
 
-### Version 1.0.0 [2018-08-28]
-* **[Added]** Select color of the browser bar (Android)
+### Version 1.0.0 [2019-03-06]
+* **[Added]** Integrate Metricool tracking code
 
 * * *
 

@@ -14,6 +14,9 @@ Joomla System plugin to integrate Metricool tracking code
 ### Version 1.0.0 [2019-03-06]
 * **[Added]** Integrate Metricool tracking code
 
+### Version 1.0.1 [2021-01-05]
+* **[Added]** Joomla 4 integration
+
 * * *
 
 ## Copyright & License

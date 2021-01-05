@@ -8,13 +8,24 @@
  * @author 		Sergio Iglesias (@sergiois)
  */
 
+use Joomla\CMS\Plugin\CMSPlugin;
+use Joomla\CMS\Factory;
+
 defined('_JEXEC') or die;
 
-class PlgSystemSismetricool extends JPlugin
+class PlgSystemSismetricool extends CMSPlugin
 {
+	protected $app;
+
 	public function onAfterRender()
 	{
-		$app = JFactory::getApplication();
+		$app = Factory::getApplication();
+
+		if ($app->isClient('administrator') || $app->get('offline', '0'))
+		{
+			return;
+		}
+		
 		if ($app->isClient('site') && $this->params->get('hash_metricool'))
 		{
 			$html = $app->getBody();
